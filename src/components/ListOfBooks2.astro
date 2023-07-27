@@ -1,11 +1,11 @@
 ---
 import BookItem from "./BookItem.astro";
-import { books } from '../data/books'
+import { hermanosmama } from '../data/books'
 ---
 
 <ul class="grid grid-cols-4 md:grid-cols-3 gap-4 px-4">
   {
-    books.map(({ id, title, img }) => {
+    hermanosmama.map(({ id, title, img }) => {
       return (
         <li>
           <BookItem id={id} title={title} img={img} />

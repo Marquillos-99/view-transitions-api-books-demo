@@ -1,37 +1,44 @@
 export const books = [
-  {
-    id: 'clean-code',
-    title: 'Clean Code: Manual de desarrollo ágil de software',
-    img: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg",
-    opinion: 'Un clásico entre los clásicos del mundo de la programación. Aunque en pleno 2023 yo tengo una opinión un poco polémica. No me parece un libro que recomendaría a todo el mundo, especialmente a aquellas personas que están aprendiendo. Además, tiene un tono muy dogmático y existe gente que se lo toma, peligrosamente, como la biblia del desarrollo. Pero si eres capaz de leerlo tomando perspectiva, hay cosas interesantes que todavía están vigentes. Ojo que todos los ejemplos de código están basados en Java y mucha programación orientada a objetos.',
-    author: 'Robert C. Martin',
-  },
-  {
-    id: 'aprendiendo-git',
-    title: 'Aprendiendo Git',
-    img: "https://d2sofvawe08yqg.cloudfront.net/aprendiendo-git/s_hero2x?1628527844",
-    opinion: 'Un libro muy interesante para aprender Git. Mucho más allá de los comandos. Habla de buenas prácticas, estrategias de trabajo en equipo y flujos para mejorar la entrega de software. Además, está escrito por un autor español, lo que siempre es de agradecer.',
-    author: 'Miguel Angel Durán'
-  },
-  {
-    id: 'the-clean-coder',
-    title: 'The Clean Coder: A Code of Conduct for Professional Programmers',
-    img: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347470803i/10284614.jpg",
-    opinion: '"The Clean Coder: Un Código de Conducta para Programadores Profesionales" es un libro excepcional que revoluciona la forma en que los programadores abordan su trabajo. Con sus ideas prácticas e inspiradoras, establece un nuevo estándar de profesionalismo en la industria del desarrollo de software. Su enfoque en la responsabilidad personal, el aprendizaje continuo y la comunicación efectiva, promueve la entrega de código limpio, la mejora constante y la colaboración en equipo. En resumen, este libro es una herramienta indispensable que empodera a los programadores para alcanzar la excelencia y contribuir al éxito de sus organizaciones.',
-    author: 'Robert C. Martin',
-  },
-  {
-    id: 'javascript-the-good-parts',
-    title: 'JavaScript: The Good Parts',
-    img: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328834793i/2998152.jpg',
-    opinion: '"JavaScript: The Good Parts" es un libro imprescindible que destaca las mejores prácticas y características esenciales de JavaScript. A través de una visión concisa y perspicaz, el autor nos guía por el mundo de este lenguaje, revelando su potencial y resaltando sus aspectos más poderosos y efectivos. Con un enfoque en la simplicidad y la elegancia, el libro ofrece una guía práctica para aprovechar al máximo las partes más sólidas y confiables de JavaScript, permitiéndonos escribir un código claro y eficiente. En resumen, esta obra es una valiosa herramienta para cualquier desarrollador que desee dominar el arte de programar con JavaScript.',
-    author: 'Douglas Crockford',
-  },
-  {
-    id: 'eloquent-javascript',
-    title: 'Eloquent JavaScript: A Modern Introduction to Programming',
-    img: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1308260856i/8910666.jpg',
-    opinion: '"Eloquent JavaScript" es un libro extraordinario que lleva a los lectores en un viaje apasionante a través del mundo de la programación en JavaScript. Con un enfoque amigable y accesible, el autor nos introduce en los conceptos fundamentales del lenguaje y nos guía hábilmente a través de ejercicios prácticos y desafiantes. Con una combinación equilibrada de teoría y práctica, el libro fomenta el pensamiento lógico y creativo, y nos enseña a desarrollar soluciones elegantes y eficientes. En resumen, "Eloquent JavaScript" es una guía imprescindible para aquellos que desean dominar este poderoso lenguaje de programación y explorar todo su potencial.',
-    author: 'Marijn Haverbeke',
-  }
+	{
+		id: 'Ева',
+		title: 'бабушка: Ева',
+		img: 'https://scontent.fmex1-4.fna.fbcdn.net/v/t1.6435-9/55483142_399388494181823_2411801707831885824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGa-q_8K5YUTKztTYIB_-XI4ypTFtUceszjKlMW1Rx6zHK6EkxthgEJ84JkAlMeEZfTBUDagDHOaGFkMiFne7D3&_nc_ohc=9rOin_77NvcAX-1HgDJ&_nc_ht=scontent.fmex1-4.fna&oh=00_AfC4up-FSvB9UgAKXSHT69RhDGOJaW0ZwS3fAN9DwpOa-Q&oe=64E91ED1',
+		opinion: ' Ama de casa',
+		author: 'Robert C. Martin'
+	},
+	{
+		id: 'Хавьер',
+		title: 'дедушка: Хавьер',
+		img: 'https://scontent.fmex1-4.fna.fbcdn.net/v/t1.18169-9/13434805_1067602766609233_2840404273311562386_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGUVXelRSz3Uo6TN19Vh00m_yWItUxzFR3_JYi1THMVHTBBs-dN2Yg5bqhaNu5Ifa7t4UTE8AN4p3MfkRIFapki&_nc_ohc=DZmtvM1QPfgAX8yX5ou&_nc_ht=scontent.fmex1-4.fna&oh=00_AfD_4zGp96zOLhqqNPmmZ5I0jMM8w8aEkdw3U1Pj-h4cjQ&oe=64E91F61',
+		opinion: 'трейдер',
+		author: 'Miguel Angel Durán'
+	},
+	{
+		id: 'Ema',
+		title: 'бабушка: Ema',
+		img: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347470803i/10284614.jpg',
+		opinion: 'Крестьянин',
+		author: 'Robert C. Martin'
+	},
+	{
+		id: 'Габриэль',
+		title: 'дедушка: Габриэль',
+		img: 'https://scontent.fmex1-6.fna.fbcdn.net/v/t39.30808-6/362959526_104208342765423_1421800060190315603_n.jpg?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=M-LJ5wh3KeUAX82tAMZ&_nc_ht=scontent.fmex1-6.fna&oh=00_AfA6YUuEG50nxNUYNj41XSpk4d_iODqT98LclbILgw1W6w&oe=64C61EAE',
+		author: 'Крестьянин'
+	}
+]
+export const hermanosmama = [
+	{
+		id: 'александр',
+		title: 'Дядя: александр',
+		img: 'https://scontent.fmex1-6.fna.fbcdn.net/v/t39.30808-6/288852462_172222335265220_1165300425530381393_n.jpg?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Tl1S3qOMbRUAX_DGZ7R&_nc_ht=scontent.fmex1-6.fna&oh=00_AfBosnV7zaC8R1xIGfkSKx_g_4M5QoOMOT8aOm2yItf1Ug&oe=64C6C02F',
+		author: 'Douglas Crockford'
+	},
+	{
+		id: 'Рейна',
+		title: 'двоюродная сестра: Рейна (La чапаррита)',
+		img: 'https://scontent.fmex1-4.fna.fbcdn.net/v/t1.6435-9/56161499_273352790256220_918445637756780544_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGfjxN_Q1g6wyVuPFmO8ZNPjDhWOClKu4WMOFY4KUq7hfpgrHWRFaMB5XjZXGCTTRLgFpcFGmSxL_m32800W-W0&_nc_ohc=VsZOPMjZFt4AX9U4f4X&_nc_ht=scontent.fmex1-4.fna&oh=00_AfCmp39f4J94YMgR4x2Txh7S5WO-TQjG0nO2ujeQTQjGJg&oe=64E91F61',
+		opinion: '"JavaScript: The Good Parts" es un libro imprescindible que destaca las mejores prácticas y características esenciales de JavaScript. A través de una visión concisa y perspicaz, el autor nos guía por el mundo de este lenguaje, revelando su potencial y resaltando sus aspectos más poderosos y efectivos. Con un enfoque en la simplicidad y la elegancia, el libro ofrece una guía práctica para aprovechar al máximo las partes más sólidas y confiables de JavaScript, permitiéndonos escribir un código claro y eficiente. En resumen, esta obra es una valiosa herramienta para cualquier desarrollador que desee dominar el arte de programar con JavaScript.',
+		author: 'Douglas Crockford'
+	}
 ]
